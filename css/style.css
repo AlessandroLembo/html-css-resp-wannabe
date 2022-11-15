@@ -134,27 +134,41 @@ img {
     }
 
     .site-header{
-        width: 1140px;
+       width: 1140px;
     }
     }
 
  /* dai 768px in giù (tablet) fino a 577px */
 
 @media screen and (max-width: 768px) {
+    h1{
+       font-size: 3.8rem;
+       margin-bottom: 4rem;
+    }
+    
+    h2{
+       font-size: 3.2rem;
+       margin-bottom: 3.5rem;
+   }
+
+    h3{
+       font-size: 2.2rem;
+       margin-bottom: 1.5rem;
+   }
+
+   p{
+       font-size: 1.5rem;
+   }
+
+   .steps .col img{
+       margin-bottom: 1.6rem;
+   }
+
+   .why-us li{
+    margin-bottom: 3rem;
+   }
     
 }
    
-
-
-
-
-
-
-
-
-
-
-
-
 
  /* dai 576px in giù (mobile) */
